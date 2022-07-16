@@ -1,0 +1,16 @@
+https://ap-northeast-1.console.aws.amazon.com/cloud9/home/product#
+
+AWS->cloud9
+New AWS Cloud9 environment
+Create environment
+
+Name->Giiku-CAMP-Hackathon_Vol6
+Next step
+
+Platform->Ubuntu Server 18.04 LTS
+Next step
+
+Create environment
+
+多くの画面遷移->待機(This can take a few minutes.)
+
