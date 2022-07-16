@@ -49,7 +49,7 @@ source <(curl -sL https://cdn.learnenough.com/yarn_install)
 以上のコマンドでyarnの開発環境がインストールされた
 
 
-rails  _6.0.3_ new introduction_app
+rails _6.0.3_ new introduction_app
 
 (結構待つ)(体感10分)
 ↓↓↓　出力　↓↓↓
