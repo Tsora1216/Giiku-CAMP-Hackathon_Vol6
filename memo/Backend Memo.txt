@@ -1,0 +1,68 @@
+https://ap-northeast-1.console.aws.amazon.com/cloud9/home/product#
+
+AWS->cloud9
+New AWS Cloud9 environment
+Create environment
+
+Name->Giiku-CAMP-Hackathon_Vol6
+Next step
+
+Platform->Ubuntu Server 18.04 LTS
+Next step
+
+Create environment
+
+多くの画面遷移->待機(This can take a few minutes.)(3分ぐらい待つ)
+
+clone from github->WebページのGitを乗っける
+今回だと、以下のURLを記載
+https://github.com/Tsora1216/Giiku-CAMP-Hackathon_Vol6
+↓↓↓　出力　↓↓↓
+"""
+Cloning into 'Giiku-CAMP-Hackathon_Vol6'...
+remote: Enumerating objects: 137, done.
+remote: Counting objects: 100% (137/137), done.
+remote: Compressing objects: 100% (93/93), done.
+remote: Total 137 (delta 37), reused 129 (delta 29), pack-reused 0
+Receiving objects: 100% (137/137), 15.91 KiB | 603.00 KiB/s, done.
+Resolving deltas: 100% (37/37), done.
+"""
+
+railsバージョン確認
+rails -v
+
+railsバージョン更新
+gem install rails -v 6.0.3
+
+
+railsバージョン確認
+rails -v
+↓↓↓　出力　↓↓↓
+Rails 6.0.3
+アップデートされていることを確認（開発環境のバージョンを合わせることで、誤作動を防いだ
+
+
+source <(curl -sL https://cdn.learnenough.com/resize)
+source <(curl -sL https://cdn.learnenough.com/yarn_install)
+以上のコマンドでyarnの開発環境がインストールされた
+
+
+rails  _6.0.3_ new introduction_app
+
+(結構待つ)(体感10分)
+↓↓↓　出力　↓↓↓
+.（長い）
+.（文章）
+.（省略）
+Done in 14.79s.
+Webpacker successfully installed 🎉 🍰
+
+introduction_appが作成された（フォルダ）
+その配下にRailsのすべてが入っている
+（（（（（Webアプリケーション作成時のひな形が作成される）））））
+（（（（（だからフレームワークって呼ばれてる！！！）））））
+
+中にはViewファイルがあり、そのViewファイルの中にルビーのファイルらしきものを発見！！！
+だからRuby on railsっていうのかぁぁぁぁぁぁぁｌ！！！！
+
+って班員でものすごい盛り上がりました！！！
