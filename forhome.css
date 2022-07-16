@@ -5,12 +5,41 @@ body {
     background-size: cover;
 }
 
+.senclass1 {
+    position: absolute;
+    top: 280px;
+    left: 270px;
+    z-index: 2;
+}
+
+.senclass2 {
+    position: absolute;
+    top: 280px;
+    left: 770px;
+    z-index: 2;
+}
+
+.senclass3 {
+    position: absolute;
+    top: 580px;
+    left: 270px;
+    z-index: 2;
+}
+
+.senclass4 {
+    position: absolute;
+    top: 580px;
+    left: 770px;
+    z-index: 2;
+}
+
 .class1 {
     position: absolute;
     top: 300px;
     left: 200px;
     width: 50px;
     height: 50px;
+    z-index: 2;
 }
 
 .class2 {
@@ -19,6 +48,7 @@ body {
     left: 700px;
     width: 50px;
     height: 50px;
+    z-index: 2;
 }
 
 .class3 {
@@ -27,6 +57,7 @@ body {
     left: 200px;
     width: 50px;
     height: 50px;
+    z-index: 2;
 }
 
 .class4 {
@@ -35,4 +66,41 @@ body {
     left: 700px;
     width: 50px;
     height: 50px;
+    z-index: 2;
+}
+
+.s_class1 {
+    position: absolute;
+    top: 270px;
+    left: 180px;
+    width: 480px;
+    height: 280px;
+    z-index: 1;
+}
+
+.s_class2 {
+    position: absolute;
+    top: 270px;
+    left: 680px;
+    width: 480px;
+    height: 280px;
+    z-index: 1;
+}
+
+.s_class3 {
+    position: absolute;
+    top: 570px;
+    left: 180px;
+    width: 480px;
+    height: 280px;
+    z-index: 1;
+}
+
+.s_class4 {
+    position: absolute;
+    top: 570px;
+    left: 680px;
+    width: 480px;
+    height: 280px;
+    z-index: 1;
 }
