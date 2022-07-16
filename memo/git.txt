@@ -1,2 +1,9 @@
 git push
 ->ファイルをアップロード
+
+git fetch
+git merge origin/main
+git status
+(git add .)
+(git commit -m "commitmessage")
+git push
