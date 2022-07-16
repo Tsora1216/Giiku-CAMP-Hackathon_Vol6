@@ -48,10 +48,13 @@ source <(curl -sL https://cdn.learnenough.com/yarn_install)
 
 
 rails  _6.0.3_ new introduction_app
+
+(結構待つ)
 ↓↓↓　出力　↓↓↓
 様々な文字列の出力
 
 introduction_appが作成された（フォルダ）
 その配下にRailsのすべてが入っている
-
+（（（（（Webアプリケーション作成時のひな形が作成される）））））
+（（（（（だからフレームワークって呼ばれてる！！！）））））
 
