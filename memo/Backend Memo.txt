@@ -51,9 +51,9 @@ rails _6.0.3_ new introduction_app
 
 (結構待つ)(体感10分)
 ↓↓↓　出力　↓↓↓
-.（なっがい）
-.（ぶんしょう）
-.（しょうりゃく）
+.（長い）
+.（文章）
+.（省略）
 Done in 14.79s.
 Webpacker successfully installed 🎉 🍰
 
@@ -66,5 +66,3 @@ introduction_appが作成された（フォルダ）
 だからRuby on railsっていうのかぁぁぁぁぁぁぁｌ！！！！
 
 って班員でものすごい盛り上がりました！！！
-
-
