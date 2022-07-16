@@ -44,3 +44,14 @@ Rails 6.0.3
 
 source <(curl -sL https://cdn.learnenough.com/resize)
 source <(curl -sL https://cdn.learnenough.com/yarn_install)
+以上のコマンドでyarnの開発環境がインストールされた
+
+
+rails  _6.0.3_ new introduction_app
+↓↓↓　出力　↓↓↓
+様々な文字列の出力
+
+introduction_appが作成された（フォルダ）
+その配下にRailsのすべてが入っている
+
+
