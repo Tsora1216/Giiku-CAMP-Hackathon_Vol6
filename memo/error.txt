@@ -1,0 +1,22 @@
+Pushができなくなった
+->トークンが切れていた
+
+Pushができなくなった
+->summaryに記載せずにコミットしようとしていた。
+
+RailsでWebアプリケーションのフレームワークを作れました。
+
+
+===質問用テキスト===
+Cloud9からGithubにpushできない
+試したこと->https://kosuke-space.com/cloud9-github
+SSHの鍵を得て、個人のGithubアカウントに登録するところまで完了
+
+
+ubuntu:~/environment $ cd Giiku-CAMP-Hackathon_Vol6
+ubuntu:~/environment/Giiku-CAMP-Hackathon_Vol6 (main) $ ls
+index.html  memo  toda.txt
+ubuntu:~/environment/Giiku-CAMP-Hackathon_Vol6 (main) $ ls -a
+.  ..  .git  index.html  memo  toda.txt
+ubuntu:~/environment/Giiku-CAMP-Hackathon_Vol6 (main) $ git add .
+ubuntu:~/environment/Giiku-CAMP-Hackathon_Vol6 (main) $ git commit -m "test"
