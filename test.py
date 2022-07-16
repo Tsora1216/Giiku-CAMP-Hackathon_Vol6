@@ -1,2 +1,2 @@
 print("a")
-print("Yuki Iwai")
+print("Iwai")
