@@ -1,5 +1,7 @@
 https://ap-northeast-1.console.aws.amazon.com/cloud9/home/product#
 
+Rails勉強するなら->https://railstutorial.jp/
+
 AWS->cloud9
 New AWS Cloud9 environment
 Create environment
@@ -66,3 +68,4 @@ introduction_appが作成された（フォルダ）
 だからRuby on railsっていうのかぁぁぁぁぁぁぁｌ！！！！
 
 って班員でものすごい盛り上がりました！！！
+
