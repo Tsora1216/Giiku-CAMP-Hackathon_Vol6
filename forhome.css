@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body {
+    background-image: url('img/back2.jpeg');
+    background-size: cover;
+}
+
 .class1 {
     position: absolute;
     top: 300px;
