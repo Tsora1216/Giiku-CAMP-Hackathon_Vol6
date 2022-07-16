@@ -28,5 +28,8 @@ Receiving objects: 100% (137/137), 15.91 KiB | 603.00 KiB/s, done.
 Resolving deltas: 100% (37/37), done.
 """
 
+railsバージョン確認
+rails -v
 
-
+railsバージョン更新
+gem install rails -v 6.0.3
