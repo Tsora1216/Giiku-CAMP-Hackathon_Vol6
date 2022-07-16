@@ -29,27 +29,29 @@
 1　個人ページ、indexページの内容実装とデザイン統一
 2　グローバルナビゲーションをそれぞれのページに作る
 3　デプロイ
-4　cssファイルをまとめる
-
+4 cssファイルをまとめる
 
 タスク
 #index.html
-1　HEAD, Main, Backgroundにページを分ける
+1　HEAD, MAIN, Backgroundにページを分ける
 2　それぞれの内容をhtmlで書き出す
-3　cssの実装を行う
-
+・HEADのCSS
+・MAINのCSS
+・BACKROUNDのCSS
 
 #Katsuki.html
 htmlの実装
 cssの実装
 文章内容の決定
 画像の追加
+グローバルナビゲーションの実装
 
 #Sora.html
 htmlの実装 completed
 cssの実装   completed
 文章内容の決定  completed
 画像の追加      completed
+グローバルナビゲーションの実装
 
 
 #Iwai.html
@@ -57,9 +59,13 @@ htmlの実装
 cssの実装
 文章内容の決定
 画像の追加
+グローバルナビゲーションの実装
 
 #個人.html
 htmlの実装
 cssの実装
 文章内容の決定
 画像の追加
+グローバルナビゲーションの実装
+
+#styles.css
