@@ -33,5 +33,3 @@ rails -v
 
 railsバージョン更新
 gem install rails -v 6.0.3
-
-aaa
