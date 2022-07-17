@@ -1,0 +1,56 @@
+#リモートブランチを作って作業する方法
+
+1　git checkout -b <branch-name>
+#ローカルにブランチを作成
+
+
+リモート
+main---
+
+ローカル
+main---
+↓
+↓→ーーー<branch-name>
+
+
+
+2 git push origin <branch-name>
+#ローカルで作成したブランチをリモートにプッシュする
+
+リモート
+main---
+↓
+↓→ーーー<branch-name>
+
+ローカル
+main---
+↓
+↓→ーーー<branch-name>
+
+
+3 git pull origin main
+#作成したブランチにいることを確認してから
+#ローカルにHEAD(最新のリポジトリ）をpull
+
+4　ローカルで作業
+
+5　git push origin <branch-name>
+#リモートの自分のブランチ（main以外)にローカルの変更をプッシュ
+
+6 pull request発生
+#変更内容を検証
+
+7 リモートのmainブランチにmerge
+#ブラウザ上でできる
+
+手順3に戻ってひたすら繰り返す
+
+
+ #ファイルを削除したときのgitの使い方
+ 1　ファイルを削除
+ rm <file-name>
+
+ 2 削除したファイルをインデックスに追加
+ git rm <file-name>
+
+ 3 コミットしてプッシュ

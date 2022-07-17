@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+.box{
+    border: 3px solid black;
+    margin: 10;
+    
+}
