@@ -40,7 +40,9 @@ main---
 6 pull request発生
 #変更内容を検証
 
-7 リモートのmainブランチにmerge
+7　merge pull request発生
+
+8 リモートのmainブランチにmerge
 #ブラウザ上でできる
 
 手順3に戻ってひたすら繰り返す
