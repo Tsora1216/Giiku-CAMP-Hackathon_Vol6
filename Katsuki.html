@@ -6,28 +6,30 @@
         <title>眞田雅月のプロフィールページ</title>
         <meta name="discription" content="眞田雅月のプロフィールを詳しく紹介します">
         <style>
+            /* グローバルスタイル */
             * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        /* コンテンツスタイル */
         .wrap {
             margin: 0;
             width: 100vw;
             height: 100vh;
-            background-image: linear-gradient(140deg, #00f3ffA0, #0028b960 40%, #00f3ff60 60%, #00f3ffA0), url("img/img_katsuki/forest_background.jpg");
+            background-image:  url("img/img_katsuki/forest_background.jpg");
             background-repeat: no-repeat;
             background-position: 50%;
             animation: move 20s infinite both;
         }
 
         .content {
+            background-color: rgba(255, 255, 255, 0.9);
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
             padding: 16px;
-            background-color: #fff;
         }
 
         .heading-lv1 {
@@ -63,24 +65,47 @@
         }
 
         .profile-image img {
-            width: 150px;
+            width: 180px;
             height: auto;
-            border-radius: 50%;
+            border-radius:50%;
         }
 
+        /* ナビスタイル */
         a {
             color: #3F82A8;
         }
 
-        a:hover {
+        .navi {
+            display: inline-block;
             text-decoration: none;
+
         }
+        /* a:hover {
+            text-decoration: none;
+        } */
 
 
         </style>
     </head>
     <body class="wrap">
         <div class="content">
+            <ul>
+                <li class="navi">
+                <a href="index.html">HOME</a>
+                </li>
+                <li class="navi">
+                    <a href="Katsuki.html">KATSUKI</a>
+                </li>
+                <li class="navi">
+                    <a href="Iwai.html">IWAI</a>
+                </li>
+                <li class="navi">
+                    <a href="Toda.html">TODA</a>
+                </li>
+                <li class="navi">
+                    <a href="Sora.html">SORA</a>
+                </li>
+            </ul>
             <h1 class="heading-lv1 text-center">Profile</h1>
                 <figure class="profile-image">
                     <img src="img/img_katsuki/katsuki.jpg" alt="眞田雅月のプロフィール画像">
@@ -88,12 +113,20 @@
 
             <h2 class="heading-lv2 heading-margin text-center">眞田雅月</h2>
             <p class="text text-center">Webの勉強中です。</p>
+
             <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
             <p class="text text-center">
-                彼女いない<br>
                 大学は教育学部英語科<br>
                 たまに絵を描いたりプログラミングに熱を入れたりしている<br>
                 さらっと、METIQ最年少合格者ではない
+            </p>
+
+            <h3 class="heading-lv3 heading-margin text-center">ハッカソン初参加！</h3>
+            <p class="text text-center">
+                今回ハッカソンに参加できてとても良かったです！<br>
+                チームの仲間やメンターの方々からたくさん刺激がありました。<br>
+                次のハッカソンにも参加してもっと学んでいこうと思います。<br>
+                ありがとうございました。
             </p>
 
         </div>
