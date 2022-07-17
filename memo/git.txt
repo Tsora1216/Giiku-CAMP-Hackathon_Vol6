@@ -18,3 +18,5 @@ git pull origin sora
 ~流れ~
 git add .
 git commit -m "update"
+git push origin sora
+git pull-request
