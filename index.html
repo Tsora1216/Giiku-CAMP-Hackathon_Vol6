@@ -5,69 +5,147 @@
     <link rel="stylesheet" href="forhome2.css">
 
     <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        .wrap {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(140deg, #00f3ffA0, #0028b960 40%, #00f3ff60 60%, #00f3ffA0), url("./img/img_sora/beach-background.jpg");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            animation: move 20s infinite both;
+        }
 
+        @keyframes move {
+            0% {
+                background-size: 100% auto;
+            }
 
+            50% {
+                background-size: 140% auto;
+            }
 
+            100% {
+                background-size: 100% auto;
+            }
+        }
+
+        .content {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 16px;
+            background-color: #fff;
+        }
+
+        .heading-lv1 {
+            font-size: 32px;
+            font-style: italic;
+        }
+
+        .heading-lv2 {
+            font-size: 24px;
+        }
+
+        .heading-lv3 {
+            font-size: 20px;
+        }
+
+        .heading-margin {
+            margin-top: 32px;
+        }
+
+        .text {
+            margin: 16px 0 0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .profile-image {
+            margin: 16px 0 0;
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .navi {
+            display: inline-block;
+            text-decoration: none;
+
+        }
+        a {
+            color: #3F82A8;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
     </style>
     </head>
+    <body class="wrap">
+        <div class="content">
+            <ul>
+                <li class="navi">
+                <a href="index.html">HOME</a>
+                </li>
+                <li class="navi">
+                    <a href="Katsuki.html">KATSUKI</a>
+                </li>
+                <li class="navi">
+                    <a href="Iwai.html">IWAI</a>
+                </li>
+                <li class="navi">
+                    <a href="Toda.html">TODA</a>
+                </li>
+                <li class="navi">
+                    <a href="Sora.html">SORA</a>
+                </li>
+            </ul>
+            <h1 class="heading-lv1 text-center">Profile</h1>
+            <figure class="profile-image"> <img src="./img/img_sora/Prof_img.JPG" alt="高矢空のプロフィール画像" width="300"
+                    height="300"> </figure>
+            <h2 class="heading-lv2 heading-margin text-center">高矢　空</h2>
+        </div>
 
+        <div class="content">
+            <h1 class="heading-lv1 text-center">Profile</h1>
+            <figure class="profile-image"> <img src="img/img_Iwai/iwai_prof.JPG" alt="岩井のプロフィール画像" width="300"
+                    height="300"> </figure>
+            <h2 class="heading-lv2 heading-margin text-center">岩井　勇樹</h2>
+            <p class="text text-center">メタバースに興味あり、いろいろ触ってみています。</p>
+        </div>
 
+        <div class="content">
+            <h1 class="heading-lv1 text-center">Profile</h1>
+                <figure class="profile-image">
+                    <img src="" alt="戸田空斗のプロフィール画像">
+                </figure>
 
+            <h2 class="heading-lv2 heading-margin text-center">戸田空斗</h2>
+            <p class="text text-center">Webの勉強中です。</p>
+        </div>
 
-    <body >
-    <h1>HOME</h1>
+        <div class="content">
+            <h1 class="heading-lv1 text-center">Profile</h1>
+                <figure class="profile-image">
+                    <img src="img/img_katsuki/katsuki.jpg" alt="眞田雅月のプロフィール画像">
+                </figure>
 
-
-<div class="wrap">
-<div class="wrapper">
-    <div class="content">
-        <a href="ind_test1.html">
-            <img src="../img/img1.png">
-        </a>
-        <img src="img/s_back1.jpeg">
-        <p class="text text-center">Name : </p>
-        <p class="text text-center">Comment : </p>
-    </div>
-
-
-    <div class="content">
-        <a href="ind_test2.html">
-            <img src="img/img2.png" class="class2">
-        </a>
-        <img src="img/s_back2.jpeg" class="s_class2">
-        <p>Name : </p>
-        <p>Comment : </p>
-    </div>
-
-    <div class="content">
-        <a href="ind_test3.html">
-            <img src="img/img3.png" class="class3">
-        </a>
-        <img src="img/s_back3.jpeg" class="s_class3">
-        <p>Name : </p>
-        <p>Comment : </p>
-    </div>
-
-    <div class="content">
-        <a href="ind_test4.html">
-            <img src="img/img4.png" class="class4">
-        </a>
-        <img src="img/s_back4.jpeg" class="s_class4">
-        <p>Name : </p>
-        <p>Comment : </p>
-    </div>
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
+            <h2 class="heading-lv2 heading-margin text-center">眞田雅月</h2>
+            <p class="text text-center">Webの勉強中です。</p>
+        </div>
     </body>
 </html>
