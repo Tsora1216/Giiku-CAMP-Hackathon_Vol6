@@ -1,49 +1,104 @@
 <!DOCTYPE html>
 <html lang="ja">
+    <head>
+        <meta charset="URF-8">
+        <meta>
+        <title>戸田空斗のプロフィールページ</title>
+        <meta name="discription" content="戸田空斗のプロフィールを詳しく紹介します">
+        <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<head>
-  <title>個人別自己紹介</title>
-  <link rel="stylesheet" href="個人.css">
+        .wrap {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(140deg, #00f3ffA0, #0028b960 40%, #00f3ff60 60%, #00f3ffA0), url("img/img_katsuki/forest_background.jpg");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            animation: move 20s infinite both;
+        }
 
-</head>
+        .content {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 16px;
+            background-color: #fff;
+        }
+
+        .heading-lv1 {
+            font-size: 32px;
+            font-style: italic;
+        }
+
+        .heading-lv2 {
+            font-size: 24px;
+        }
+
+        .heading-lv3 {
+            font-size: 20px;
+        }
+
+        .heading-margin {
+            margin-top: 32px;
+        }
+
+        .text {
+            margin: 16px 0 0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .profile-image {
+            margin: 16px 0 0;
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        a {
+            color: #3F82A8;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
 
 
-  <img>
-  <h1 style="margin: 100px 0 40px 0; border: 10px solid black; padding: 40px;">name</h1>
+        </style>
+    </head>
+    <body class="wrap">
+        <div class="content">
+            <h1 class="heading-lv1 text-center">Profile</h1>
+                <figure class="profile-image">
+                    <img src="img/img_katsuki/katsuki.jpg" alt="戸田空斗のプロフィール画像">
+                </figure>
 
-  <h3>
-    <p>about</p>
-  </h3>
-  かんたんな身分
-  <br>
-  <a href="https://www.tagindex.com/html_tag/elements/a.html">products link</a>
-  <br>
-  <h3>
-    <p>career</p>
-  </h3>
-  経歴をつらつらと
+            <h2 class="heading-lv2 heading-margin text-center">戸田空斗</h2>
+            <p class="text text-center">Webの勉強中です。</p>
+            <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
+            <p class="text text-center">
+                彼女いない<br>
+                大学は教育学部英語科<br>
+                たまに絵を描いたりプログラミングに熱を入れたりしている<br>
+                さらっと、METIQ最年少合格者ではない
+            </p>
+
+        </div>
+    </body>
 
 
-
-
-  <h3>
-    SNS
-  </h3>
-  <div>
-    <a href="https://www.tagindex.com/html_tag/elements/a.html">github</a>
-  </div>
-  <div>
-    <a href="https://www.tagindex.com/html_tag/elements/a.html">Twitter</a>
-  </div>
-  <div>
-    <a href="https://www.tagindex.com/html_tag/elements/a.html">Instagram</a>
-  </div>
-  <div>
-    <a href="https://www.tagindex.com/html_tag/elements/a.html">Facebook </a>
-  </div>
-
-</body>
 
 </html>
-
-
