@@ -9,8 +9,12 @@ git status
 git commit -m "update"
 git push
 
-
 git checkout -b sora
 ->新しいブランチを作成
 git push origin sora
 git pull origin sora
+
+
+~流れ~
+git add .
+git commit -m "update"
