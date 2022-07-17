@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岩井勇樹のプロフィールページ</title>
+    <meta name="description" content="岩井勇樹のプロフィールを詳しく紹介します！" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrap {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(140deg, #00f3ffA0, #0028b960 40%, #00f3ff60 60%, #00f3ffA0), url("img/img_Iwai/iwai_back.JPG");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            animation: move 20s infinite both;
+        }
+
+        @keyframes move {
+            0% {
+                background-size: 100% auto;
+            }
+
+            50% {
+                background-size: 140% auto;
+            }
+
+            100% {
+                background-size: 100% auto;
+            }
+        }
+
+        .content {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 16px;
+            background-color: rgb(225, 243, 247);
+            border-radius: 50px;
+        }
+
+        .heading-lv1 {
+            font-size: 32px;
+            font-family: fantasy;
+        }
+
+        .heading-lv2 {
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+
+        .heading-lv3 {
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+        .heading-margin {
+            margin-top: 32px;
+        }
+
+        .text {
+            margin: 16px 0 0;
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: serif
+
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .profile-image {
+            margin: 16px 0 0;
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .navi {
+            display: inline-block;
+            text-decoration: none;
+
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        a {
+            color: #3F82A8;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="wrap">
+    <div class="content">
+        <ul>
+            <li class="navi">
+            <a href="index.html">HOME</a>
+            </li>
+            <li class="navi">
+                <a href="Katsuki.html">KATSUKI</a>
+            </li>
+            <li class="navi">
+                <a href="Iwai.html">IWAI</a>
+            </li>
+            <li class="navi">
+                <a href="Toda.html">TODA</a>
+            </li>
+            <li class="navi">
+                <a href="Sora.html">SORA</a>
+            </li>
+        </ul>
+        <h1 class="heading-lv1 text-center">Profile</h1>
+        <figure class="profile-image"> <img src="img/img_Iwai/iwai_prof.JPG" alt="岩井のプロフィール画像" width="300"
+                height="300"> </figure>
+        <h2 class="heading-lv2 heading-margin text-center">岩井　勇樹</h2>
+        <p class="text text-center">メタバースに興味あり、いろいろ触ってみています。</p>
+        <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
+        <p class="text text-center">学部では半側空間無視患者のためのARグラスを用いた歩行ナビゲーションシステムを研究<br>
+            修士では先天性上肢欠損患者向けのロボットアームを開発してるとこです<br>
+            3Dモデリングとかも触り始めてみたり<br>
+            3Dプリンタ超面白い</p>
+        <h3 class="heading-lv3 heading-margin text-center">Git下手くそ日記</h4>
+        <p class="text text-center">・昨日の成果をとりあえずpullしようとして、うっかりとりあえずpushしてからpullした<br>
+            ・ファイルを保存する感覚でpush&mergeを擦りまくった</p>
+
+    </div>
+</body>
+
+</html>
